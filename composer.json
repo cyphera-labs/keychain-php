@@ -1,0 +1,29 @@
+{
+    "name": "cyphera/cyphera-keychain",
+    "description": "Pluggable key provider for the Cyphera encryption SDK",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": ["cyphera", "keychain", "encryption", "key-management", "vault"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyphera\\Keychain\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cyphera\\Keychain\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
