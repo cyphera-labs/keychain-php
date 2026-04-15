@@ -1,5 +1,9 @@
 # keychain-php
 
+[![CI](https://github.com/cyphera-labs/keychain-php/actions/workflows/ci.yml/badge.svg)](https://github.com/cyphera-labs/keychain-php/actions/workflows/ci.yml)
+[![Security](https://github.com/cyphera-labs/keychain-php/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyphera-labs/keychain-php/actions/workflows/codeql.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+
 Pluggable key provider for the [Cyphera](https://cyphera.dev) encryption SDK (PHP).
 
 ## Installation
