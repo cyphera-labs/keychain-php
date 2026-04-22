@@ -1,5 +1,5 @@
 {
-    "name": "cyphera/cyphera-keychain",
+    "name": "cyphera/keychain",
     "description": "Pluggable key provider for the Cyphera encryption SDK",
     "type": "library",
     "license": "Apache-2.0",
